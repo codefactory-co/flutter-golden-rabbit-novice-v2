@@ -36,19 +36,19 @@ dependencies:
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.2
-  table_calendar: 3.0.7
-  intl: 0.17.0
-  drift: 2.1.0
-  sqlite3_flutter_libs: 0.5.10
-  path_provider: 2.0.11
-  path: 1.8.2
-  get_it: 7.2.0
-  dio: 4.0.6
-  provider: 6.0.3
-  uuid: 3.0.6
-  firebase_core: 2.2.0
-  cloud_firestore: 4.0.5
-  google_mobile_ads: 2.3.0
+  table_calendar: 3.0.9 # 달력 기능을 제공하는 플러그인
+  intl: 0.18.1 # 다국어화 기능을 제공하는 플러그인
+  drift: 2.13.0 # Drift ORM 플러그인
+  sqlite3_flutter_libs: 0.5.17 # SQLite 데이터베이스 플러그인
+  path_provider: 2.1.1 # 경로 관련 기능을 제공하는 플러그인
+  path: 1.8.3 # 경로 관련 기능을 제공하는 플러그인
+  get_it: 7.6.4 # 프로젝트 전역으로 의존성 주입을 가능하게 하는 플러그인
+  dio: 5.3.3 # 네트워크 요청을 가능하게 하는 플러그인
+  provider: 6.0.5 # 글로벌 상태 관리를 가능하게 하는 플러그인
+  uuid: 4.1.0 # UUID를 생성 할 수 있게 해주는 플러그인
+  firebase_core: 2.20.0
+  cloud_firestore: 4.12.0
+  google_mobile_ads: 3.1.0
 
 dev_dependencies:
   flutter_test:

@@ -6,7 +6,7 @@
         android:icon="@mipmap/ic_launcher">
        <meta-data
            android:name="com.google.android.gms.ads.APPLICATION_ID"
-           android:value="{여기에 앱 ID를 입력해주세요}" />
+           android:value="ca-app-pub-2402520920987706~8672123551" />
        <activity
             android:name=".MainActivity"
             android:exported="true"

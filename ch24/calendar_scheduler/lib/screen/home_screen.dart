@@ -8,7 +8,6 @@ import 'package:calendar_scheduler/component/today_banner.dart';
 import 'package:calendar_scheduler/component/schedule_bottom_sheet.dart';
 import 'package:calendar_scheduler/const/colors.dart';
 import 'package:get_it/get_it.dart';
-import 'package:calendar_scheduler/database/drift_database.dart';
 import 'package:provider/provider.dart'; // ➊ Provider 불러오기
 import 'package:calendar_scheduler/provider/schedule_provider.dart';
 
