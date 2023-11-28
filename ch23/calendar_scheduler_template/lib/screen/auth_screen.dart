@@ -71,6 +71,7 @@ class _AuthScreenState extends State<AuthScreen> {
         ),
       );
     } catch (error) {
+      print(error);
       ScaffoldMessenger.of(context).showSnackBar(
         SnackBar(content: Text('로그인 실패')),
       );
