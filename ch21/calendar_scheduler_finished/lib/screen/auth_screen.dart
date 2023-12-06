@@ -116,7 +116,7 @@ class _AuthScreenState extends State<AuthScreen> {
         password: password,
       );
     } on DioError catch (e) {
-      message = e.response?.data['message'];
+      message = e.response?.data['message'] ?? '알 수 없는 오류가 발생했습니다.';
     } catch (e) {
       message = '알 수 없는 오류가 발생했습니다.';
     } finally {
@@ -149,7 +149,7 @@ class _AuthScreenState extends State<AuthScreen> {
         password: password,
       );
     } on DioError catch (e) {
-      message = e.response?.data['message'];
+      message = e.response?.data['message'] ?? '알 수 없는 오류가 발생했습니다.';
     } catch (e) {
       message = '알 수 없는 오류가 발생했습니다.';
     } finally {

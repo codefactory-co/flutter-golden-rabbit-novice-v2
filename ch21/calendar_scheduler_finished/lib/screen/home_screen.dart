@@ -60,10 +60,6 @@ class _HomeScreenState extends State<HomeScreen> {
         child: Column(
           // 달력과 리스트를 세로로 배치
           children: [
-            ElevatedButton(
-              onPressed: () {},
-              child: Text('로그아웃'),
-            ),
             MainCalendar(
               selectedDate: selectedDate, // 선택된 날짜 전달하기
 

@@ -155,6 +155,8 @@ class ScheduleProvider extends ChangeNotifier {
         (value) => value.where((e) => e.id != tempId).toList(),
       );
     }
+
+    notifyListeners();
   }
 
   void deleteSchedule({

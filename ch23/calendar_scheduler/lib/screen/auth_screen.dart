@@ -52,6 +52,8 @@ class _AuthScreenState extends State<AuthScreen> {
       scopes: [
         'email',
       ],
+      clientId: '318341667651-u65ftogajinpachb5ajk346coh576l83.apps.googleusercontent.com',
+      serverClientId: '318341667651-t5a3uja8u6t7k98abf9ltmv61fe5ff29.apps.googleusercontent.com',
     );
 
     try {
