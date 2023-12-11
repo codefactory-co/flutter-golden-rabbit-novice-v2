@@ -68,7 +68,7 @@ class _HomeScreenState extends State<HomeScreen> {
                   .where(
                 'date',
                 isEqualTo:
-                '${selectedDate.year}${selectedDate.month}${selectedDate.day}',
+                '${selectedDate.year}${selectedDate.month.toString().padLeft(2, "0")}${selectedDate.day.toString().padLeft(2, "0")}',
               )
                   .snapshots(),
               builder: (context, snapshot) {
@@ -91,7 +91,7 @@ class _HomeScreenState extends State<HomeScreen> {
                     .where(
                       'date',
                       isEqualTo:
-                          '${selectedDate.year}${selectedDate.month}${selectedDate.day}',
+                          '${selectedDate.year}${selectedDate.month.toString().padLeft(2, "0")}${selectedDate.day.toString().padLeft(2, "0")}',
                     )
                     .snapshots(),
                 builder: (context, snapshot) {
