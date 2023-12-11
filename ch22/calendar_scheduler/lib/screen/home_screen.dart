@@ -66,7 +66,7 @@ class _HomeScreenState extends State<HomeScreen> {
               )
                   .where(
                 'date',
-                isEqualTo: '${selectedDate.year}${selectedDate.month}${selectedDate.day}',
+                isEqualTo: '${selectedDate.year}${selectedDate.month.toString().padLeft(2, "0")}${selectedDate.day.toString().padLeft(2, "0")}',
               )
                   .where('author', isEqualTo: FirebaseAuth.instance.currentUser!.email)
                   .snapshots(),
@@ -89,7 +89,7 @@ class _HomeScreenState extends State<HomeScreen> {
                 )
                     .where(
                   'date',
-                  isEqualTo: '${selectedDate.year}${selectedDate.month}${selectedDate.day}',
+                  isEqualTo: '${selectedDate.year}${selectedDate.month.toString().padLeft(2, "0")}${selectedDate.day.toString().padLeft(2, "0")}',
                 )
                     .where('author', isEqualTo: FirebaseAuth.instance.currentUser!.email)
                     .snapshots(),
