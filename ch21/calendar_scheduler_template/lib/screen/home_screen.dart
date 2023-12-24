@@ -58,7 +58,7 @@ class HomeScreen extends StatelessWidget {
             TodayBanner(
               // ➊ 배너 추가하기
               selectedDate: selectedDate,
-              count: 0,
+              count: schedules.length,
             ),
             SizedBox(height: 8.0),
             Expanded(
